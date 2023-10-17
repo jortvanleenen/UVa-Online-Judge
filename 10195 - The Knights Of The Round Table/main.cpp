@@ -1,5 +1,5 @@
 /**
-* This file contains my solution to the UVa 10012 - "The Knights Of The Round
+* This file contains my solution to the UVa 10195 - "The Knights Of The Round
 * Table" problem.
 *
 * Note: to prepare for an upcoming programming contest, I switched to a
