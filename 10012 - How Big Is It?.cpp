@@ -1,11 +1,11 @@
 /**
-* This file contains my solution to the UVa 10012 - "How Big Is It?" problem.
-* https://onlinejudge.org/external/100/10012.pdf
-*
-* @file
-* @author Jort van Leenen
-* @copyright GNU General Public License v3.0
-*/
+ * This file contains my solution to the UVa 10012 - "How Big Is It?" problem.
+ * https://onlinejudge.org/external/100/10012.pdf
+ *
+ * @file
+ * @author Jort van Leenen
+ * @copyright GNU General Public License v3.0
+ */
 
 #include <string>
 #include <iostream>
