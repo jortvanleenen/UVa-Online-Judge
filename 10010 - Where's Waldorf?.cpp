@@ -1,11 +1,11 @@
 /**
-* This file contains my solution to the UVa 10010 - "Where's Waldorf?" problem.
-* https://onlinejudge.org/external/100/10010.pdf
-*
-* @file
-* @author Jort van Leenen
-* @copyright GNU General Public License v3.0
-*/
+ * This file contains my solution to the UVa 10010 - "Where's Waldorf?" problem.
+ * https://onlinejudge.org/external/100/10010.pdf
+ *
+ * @file
+ * @author Jort van Leenen
+ * @copyright GNU General Public License v3.0
+ */
 
 #include <iostream>
 #include <array>
