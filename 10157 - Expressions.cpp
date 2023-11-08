@@ -1,15 +1,15 @@
 /**
-* This file contains my solution to the UVa 10157 - "Expressions" problem.
-* https://onlinejudge.org/external/101/10157.pdf
-*
-* It is NOT ACCEPTED by Online Judge due to it not implementing a BigInt class 
-* or similar structure. It can still be used to upload a working solution by
-* implementing below code in e.g. Python.
-*
-* @file
-* @author Jort van Leenen
-* @copyright GNU General Public License v3.0
-*/
+ * This file contains my solution to the UVa 10157 - "Expressions" problem.
+ * https://onlinejudge.org/external/101/10157.pdf
+ *
+ * It is NOT ACCEPTED by Online Judge due to it not implementing a BigInt class
+ * or similar structure. It can still be used to upload a working solution by
+ * implementing below code in e.g. Python.
+ *
+ * @file
+ * @author Jort van Leenen
+ * @copyright GNU General Public License v3.0
+ */
 
 #include <string>
 #include <iostream>
@@ -49,14 +49,14 @@ __uint128_t countExpressions(int parentheses, int depth_d,
     for (int j{1}; j < depth_d; ++j) {
       first += countExpressions(i, j, memo, memo_set);
     }
-//    first = first == 0 ? 1 : first;
+    first = first == 0 ? 1 : first;
     first *= countExpressions(parentheses - i - 2, depth_d, memo, memo_set);
 
     __uint128_t second{0};
     for (int j{1}; j < depth_d; ++j) {
       second += countExpressions(parentheses - i - 2, j, memo, memo_set);
     }
-//    second = second == 0 ? 1 : second;
+    second = second == 0 ? 1 : second;
     second *= countExpressions(i, depth_d - 1, memo, memo_set);
 
     count += first + second;
