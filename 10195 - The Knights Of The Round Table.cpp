@@ -1,16 +1,16 @@
 /**
-* This file contains my solution to the UVa 10195 - "The Knights Of The Round
-* Table" problem.
-* https://onlinejudge.org/external/101/10195.pdf
-*
-* Note: to prepare for an upcoming programming contest, I switched to a
-* different IDE for the programming of this problem due to that IDE being the
-* only one available during the contest. Formatting may be slightly different.
-*
-* @file
-* @author Jort van Leenen
-* @copyright GNU General Public License v3.0
-*/
+ * This file contains my solution to the UVa 10195 - "The Knights Of The Round
+ * Table" problem.
+ * https://onlinejudge.org/external/101/10195.pdf
+ *
+ * Note: to prepare for an upcoming programming contest, I switched to a
+ * different IDE for the programming of this problem due to that IDE being the
+ * only one available during the contest. Formatting may be slightly different.
+ *
+ * @file
+ * @author Jort van Leenen
+ * @copyright GNU General Public License v3.0 
+ */
 
 #include <string>
 #include <sstream>
